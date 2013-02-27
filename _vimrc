@@ -6,8 +6,10 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 
-" bundles
+" handle bundles
 Bundle 'gmarik/vundle'
+
+Bundle 'Valloric/YouCompleteMe'
 
 
 filetype plugin indent on
